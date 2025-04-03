@@ -28,17 +28,25 @@ sudo mkinitcpio -P
 
 5. Passthrough PCI (GPU) 01:00.0 and 01:00.1 in Virt-Manager
 
-6. on your Host install Looking Glass Client with yay -S looking-glass on Arch Linux on other distribution compile it manually 
+6. Add a Mouse Virtio and a Keyboard Virtio in Virt-Manager
 
-7. on your Guest (Windows VM) install GPU Drivers, Looking Glasss Host and Virtual-Display-Driver (Select your GPU for your Virtual Display)
+7. Set the Display on Spice
 
-8. and run Looking Glass with that argument : looking-glass-host.exe dxgi:output=2 (Display Number)
+8. Set the Video on QXL 
 
-9. run Looking Glass Client on your Host with looking-glass-client -F for fullscreen
+9. Change your controller on Virtio for your Virtual Disk for better performance  
 
-10. on your Guest VM (Windows VM) run (Win+R) ms-settings:display and set your Desktop only on the second Display .
+10. on your Host install Looking Glass Client with yay -S looking-glass on Arch Linux on other distribution compile it manually 
 
-11. Normally now you got the 3D Acceleration of your GPU Passthrough
+11. on your Guest (Windows VM) install GPU Drivers, Looking Glasss Host and Virtual-Display-Driver (Select your GPU for your Virtual Display), install Spice-Guest-tools and Virtio-Drivers
+
+12. and run Looking Glass with that argument : looking-glass-host.exe dxgi:output=2 (Display Number)
+
+13. run Looking Glass Client on your Host with looking-glass-client -F for fullscreen
+
+14. on your Guest VM (Windows VM) run (Win+R) ms-settings:display and set your Desktop only on the second Display .
+
+15. Normally now you got the 3D Acceleration of your GPU Passthrough
 
 
 
