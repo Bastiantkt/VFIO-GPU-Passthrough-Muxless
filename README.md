@@ -48,6 +48,8 @@ sudo mkinitcpio -P
 
 15. Normally now you got the 3D Acceleration of your GPU Passthrough
 
+16. You can set the Video on None or Keep on QXL for backup Video if your Looking Glass failed
+
 
 
 
