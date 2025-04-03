@@ -24,7 +24,7 @@ blacklist nvidia_drm
 blacklist nvidia_modeset
 blacklist nvidia_uvm
 
-sudo mkinitcpio -P 
+sudo mkinitcpio -P or sudo update-initramfs -u on Debian based distro
 
 5. Passthrough PCI (GPU) 01:00.0 and 01:00.1 in Virt-Manager
 
