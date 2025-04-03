@@ -28,7 +28,7 @@ sudo mkinitcpio -P
 
 5. Passthrough PCI (GPU) 01:00.0 and 01:00.1 in Virt-Manager
 
-6. Add a Mouse Virtio and a Keyboard Virtio in Virt-Manager
+6. Add a Mouse Virtio and a Keyboard Virtio in Virt-Manager (For Looking Glass)
 
 7. Set the Display on Spice
 
