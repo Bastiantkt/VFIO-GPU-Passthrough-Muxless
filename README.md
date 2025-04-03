@@ -36,7 +36,7 @@ sudo mkinitcpio -P
 
 9. run Looking Glass Client on your Host with looking-glass-client -F for fullscreen
 
-10. go to ms-settings: and set your Desktop only on the second Display .
+10. go to ms-settings:display and set your Desktop only on the second Display .
 
 11. Normally now you got the 3D Acceleration of your GPU Passthrough
 
