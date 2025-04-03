@@ -26,7 +26,7 @@ blacklist nvidia_uvm
 
 sudo mkinitcpio -P 
 
-5. Passthrough 01:00.0 and 01:00.1 in Virt-Manager
+5. Passthrough PCI (GPU) 01:00.0 and 01:00.1 in Virt-Manager
 
 6. on your Host install Looking Glass Client with yay -S looking-glass on Arch Linux on other distribution compile it manually 
 
@@ -38,7 +38,7 @@ sudo mkinitcpio -P
 
 10. go to ms-settings: and set your Desktop only on the second Display .
 
-11. Normally now you got the 3D Acceleration of you GPU Passthrough
+11. Normally now you got the 3D Acceleration of your GPU Passthrough
 
 
 
