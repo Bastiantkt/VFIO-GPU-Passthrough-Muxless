@@ -30,7 +30,7 @@ sudo mkinitcpio -P
 
 6. on your Host install Looking Glass Client with yay -S looking-glass on Arch Linux on other distribution compile it manually 
 
-7. on your Guest (Windows VM) install GPU Drivers, Looking Glasss Host and Virtual-Display-Driver (Select your GPU for you Virtual Display)
+7. on your Guest (Windows VM) install GPU Drivers, Looking Glasss Host and Virtual-Display-Driver (Select your GPU for your Virtual Display)
 
 8. and run Looking Glass with that argument : looking-glass-host.exe dxgi:output=2 (Display Number)
 
